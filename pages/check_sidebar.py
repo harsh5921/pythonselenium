@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
-from utils import check_url
+from utils.check_url import check_url
 
 def check_sidebar_links(driver, wait):
     try:
